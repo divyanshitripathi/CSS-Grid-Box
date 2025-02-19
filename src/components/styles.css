@@ -16,29 +16,14 @@
 
 .buttonGrid {
   position: absolute;
-  bottom: 20%;
-}
-
-/* Individual boxes */
-.box {
-  width: 60px;
-  height: 60px;
-  border: 1px solid gray;
-  background-color: white;
-  cursor: pointer;
-  transition: background-color 0.5s ease;
-}
-
-/* Black box on click */
-.black {
-  background-color: black;
+  bottom: 10%;
 }
 
 /* Reset button styling */
 .reset-button {
   padding: 8px 16px;
   font-size: 16px;
-  background-color: blue;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
   color: white;
   width: 300px;
   border: none;
@@ -48,5 +33,5 @@
 }
 
 .reset-button:hover {
-  background-color: darkblue;
+  background: linear-gradient(90.21deg, #ec78bd -5.91%, #8f7be6 111.58%);
 }
